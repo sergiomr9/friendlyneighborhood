@@ -1,0 +1,36 @@
+*{
+    margin:0 auto;
+    margin:0;
+    padding:0;
+}
+.lista{
+    width: 20%;
+    height: 10vw;
+    background-color:black;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.sub, .sub2{
+    display:none;
+}
+.sub2{
+    position: absolute;
+}
+.nav>li:hover .sub{
+    display: block;
+}
+.test:hover .sub2{
+    display: block;
+}
+.sub2:hover{
+    display:block;
+}
+.nav>:hover{
+
+}
+li:hover{
+
+}

@@ -1,0 +1,45 @@
+*{
+    margin:0 auto;
+    margin:0;
+    padding:0;
+}
+.nav>li{
+    float: left;
+}
+ul,ol{
+    list-style-type: none;
+}
+li{   
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:2px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:0.6vw;
+}
+.sub, .sub2{
+    display:none;
+}
+.sub2{
+    position: absolute;
+    left:9.6vw;
+    top:4.7vw;
+}
+.nav>li:hover .sub{
+    display: block;
+}
+.test:hover .sub2{
+    display: block;
+}
+.sub2:hover{
+    display:block;
+}
+.nav>:hover{
+    background-color:darkgray;
+}
+li:hover{
+    background-color:red;
+}
